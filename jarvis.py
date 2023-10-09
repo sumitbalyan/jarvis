@@ -69,7 +69,7 @@ if __name__ == "__main__":
         elif 'open stack overflow' in query:
             webbrowser.open('stackoverflow.com')
         elif 'play music' in query or 'play next song' in query or 'play any song' in query or 'play song' in query: 
-            music_dir = 'C:\\Sumit\\MUSIC'
+            music_dir = 'G:\\Sumit\\MUSIC'
             songs = os.listdir(music_dir)
             random_song = random.randint(0, len(songs)-1)
             # os.startfile(os.path.join(music_dir, songs[random_song]))
@@ -87,7 +87,7 @@ if __name__ == "__main__":
             curr_time = datetime.datetime.now().strftime('%H:%M:S')
             speak(f'Sir, the time is {curr_time}')
         elif 'open vs code' in query:
-            vsc_path = 'C:\\Users\\Sumit\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
+            vsc_path = 'C:\\Users\\HP\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe'
             os.startfile(vsc_path)
         elif 'open android studio' in query:
             android_path = 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Android Studio'
