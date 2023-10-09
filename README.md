@@ -8,6 +8,8 @@ pip install wikipedia
 
 pip install SpeechRecognition
 
+pip install vlc
+
 # Change the path 
 vsc_path = "your_path"
 
